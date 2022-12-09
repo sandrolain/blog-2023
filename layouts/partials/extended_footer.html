@@ -105,12 +105,21 @@ gtag("config", "UA-522672-3");
     border-radius: 4px;
   }
 
+  .logo {
+    border: 1px solid var(--primary-color);
+    box-sizing: border-box;
+    background-color: var(--bg-color-blacky);
+    color: var(--primary-color);
+    font-weight: bold;
+    padding: 5px 15px;
+  }
+
   .logo::after {
     display: block;
     height: 46px;
     aspect-ratio: 1/1;
     content: '';
-    background:  url(/photo.jpg) no-repeat 50% 50%;
+    background: #000000 url(/photo.jpg) no-repeat 50% 50%;
     background-size: contain;
     margin: -5px -10px -5px 10px;
   }

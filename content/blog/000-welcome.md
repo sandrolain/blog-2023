@@ -6,14 +6,14 @@ authorTwitter = "sandro_lain" #do not include @
 cover = "/cover/drew-beamer-3SIXZisims4-unsplash.jpg"
 tags = ["welcome", "first post"]
 keywords = ["welcome", "first post"]
-description = ""
+description = "First post"
 showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
 
-Photo by <a href="https://unsplash.com/@drew_beamer?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Drew Beamer</a> on <a href="https://unsplash.com/" target="_blank">Unsplash</a>
+*Photo by [Drew Beamer](https://unsplash.com/@drew_beamer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/)*
 
 My name is Sandro, I have been a web developer for more than 10 years, with diversified experience in the creation of web apps.
 I live and work in the province of Padua (Italy), with my wife Luisa, my daughter Matilde and her future sister (-4 months at birth - 27/06/2020).

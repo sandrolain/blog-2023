@@ -6,14 +6,14 @@ authorTwitter = "sandro_lain" #do not include @
 cover = "/cover/pankaj-patel-6JVlSdgMacE-unsplash.jpg"
 tags = ["css variables"]
 keywords = ["css variables"]
-description = ""
+description = "Some CSS experiments"
 showFullContent = false
 readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
 
-Photo by <a href="https://unsplash.com/@pankajpatel?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Pankaj Patel</a> on <a href="https://unsplash.com/s/photos/css?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+*Photo by [Pankaj Patel](https://unsplash.com/@pankajpatel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/css?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)*
 
 # CSS variable as a responsive selector
 
@@ -96,4 +96,4 @@ Example HTML source:
   ">Hello! Resize the viewport to switch between styles</div>
 ```
 
-<Link href="/001-example.html"><a>Live Example</a></Link>
+[View Live Example](/001-example.html)
