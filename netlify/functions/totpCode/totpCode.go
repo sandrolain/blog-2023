@@ -46,8 +46,11 @@ func handler(request events.APIGatewayProxyRequest) (*events.APIGatewayProxyResp
 	return &events.APIGatewayProxyResponse{
 		StatusCode: 200,
 		Headers: map[string]string{
-			"Content-Type":  "text/plain",
-			"Cache-Control": "no-cache",
+			"Access-Control-Allow-Origin":  "*",
+			"Access-Control-Allow-Headers": "Content-Type",
+			"Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+			"Content-Type":                 "text/plain",
+			"Cache-Control":                "no-cache",
 		},
 		Body:            code,
 		IsBase64Encoded: false,
