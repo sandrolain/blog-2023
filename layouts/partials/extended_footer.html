@@ -105,6 +105,27 @@ gtag("config", "UA-522672-3");
     border-radius: 4px;
   }
 
+  .header {
+    flex-direction: row;
+    padding: 0 2em;
+  }
+  .header__inner {
+    flex: 1;
+  }
+  .navigation-menu {
+    margin: 0 0 0 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navigation-menu a {
+    color: var(--primary-color-sowhite);
+    text-decoration: none;
+  }
+  .navigation-menu__inner>li {
+    margin: 0;
+  }
+
   .logo {
     border: 1px solid var(--primary-color);
     box-sizing: border-box;
@@ -141,6 +162,12 @@ gtag("config", "UA-522672-3");
     vertical-align: top;
     background: #000000;
     border-radius: 4px;
+  }
+
+  .content {
+    background: var(--primary-color-verydark-50);
+    backdrop-filter: blur(6px);
+    padding: 0 2em;
   }
 
   #foot {
