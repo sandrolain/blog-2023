@@ -9,5 +9,6 @@ require (
 
 require (
 	github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc // indirect
-	github.com/panr/hugo-theme-terminal v0.0.0-20221209145414-1d7e65f42e01 // indirect
+	github.com/panr/hugo-theme-terminal v2.1.0+incompatible // indirect
+	github.com/panr/hugo-theme-terminal/v3 v3.1.2 // indirect
 )

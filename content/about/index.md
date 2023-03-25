@@ -23,6 +23,73 @@ color = "" #color from the theme settings
   - Gate control and access
   - Beacon and geolocation based events
 
+## Technologies
+
+| **Legend**            |      |
+|-----------------------|------|
+| I know what it is     | ▢    |
+| I worked on it        | ▢▢   |
+| Successfully deployed | ▢▢▢  |
+| Proficient tuning     | ▢▢▢▢ |
+
+
+| Technology                         | Level |
+|------------------------------------|-------|
+| React                              | ▢▢▢   |
+| Angular 2+                         | ▢▢    |
+| LitElement                         | ▢▢▢▢  |
+| MongoDB                            | ▢▢▢   |
+| VueJS                              | ▢     |
+| SvelteJS                           | ▢     |
+| Terraform                          | ▢▢▢   |
+| JavaScript                         | ▢▢▢▢  |
+| TypeScript                         | ▢▢▢▢  |
+| DOM                                | ▢▢▢▢  |
+| CSS                                | ▢▢▢▢  |
+| HTML                               | ▢▢▢▢  |
+| NodeJS                             | ▢▢▢   |
+| Java                               | ▢     |
+| GoLang                             | ▢▢▢   |
+| Rust                               | ▢     |
+| MySQL                              | ▢▢▢   |
+| PHP 5+                             | ▢▢▢   |
+| AWS                                | ▢▢▢   |
+| Docker                             | ▢▢▢   |
+| Kubernetes                         | ▢▢    |
+| HELM                               | ▢▢    |
+| TOTP                               | ▢▢▢   |
+| JWT                                | ▢▢▢   |
+| SQL                                | ▢▢▢   |
+| Kafka                              | ▢     |
+| MQTT                               | ▢▢▢   |
+| Modbus over TCP                    | ▢▢▢   |
+| OpenTherm                          | ▢▢▢   |
+| Apache                             | ▢▢▢   |
+| Nginx                              | ▢▢▢   |
+| Jquery                             | ▢▢    |
+| Jenkins                            | ▢▢▢   |
+| Jenkinsfile                        | ▢▢▢   |
+| Bootstrap                          | ▢▢    |
+| Angular js                         | ▢▢▢   |
+| JSON                               | ▢▢▢▢  |
+| YAML                               | ▢▢▢   |
+| SemVer                             | ▢▢▢   |
+| .env                               | ▢▢▢   |
+| JSON Schema                        | ▢▢▢   |
+| Swagger / openapi                  | ▢▢▢   |
+| Markdown                           | ▢▢▢   |
+| MDX                                | ▢▢▢   |
+| Redis                              | ▢▢    |
+| Memcached                          | ▢▢▢   |
+| QRcode                             | ▢▢▢   |
+| Editorconfig                       | ▢▢▢   |
+| Eslint                             | ▢▢▢   |
+| Shell script                       | ▢▢    |
+| [Mermaid](https://mermaid.js.org/) | ▢▢▢   |
+
+
+
+
 ## Certifications
 
 - [Programming with Google Go](/coursera/Coursera-WMUAQLKE6FVE.pdf)
