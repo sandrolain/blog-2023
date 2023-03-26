@@ -20,10 +20,10 @@ document.addEventListener("DOMContentLoaded", () => {
       }
       for(const badge of badges.earnedBadges) {
         html.push(/*html*/`
-          <div class="badge">
+          <a href="https://app.pluralsight.com/profile/sandro-lain" target="_blank" class="badge">
             <!--<div class="badge-img"><img src="${escape(badge.iconUrl)}"/></div>-->
             <div class="badge-title">${escape(badge.name)}</div>
-          </div>
+          </a>
         `)
       }
       const skillsHTML = [];
@@ -35,12 +35,12 @@ document.addEventListener("DOMContentLoaded", () => {
             continue;
           }
           skillsHTML.push(/*html*/`
-            <div class="skill">
+            <a href="https://app.pluralsight.com/profile/sandro-lain" target="_blank" class="skill">
               <!--<div class="skill-img"><img src="${escape(skill.thumbnailUrl)}" /></div>-->
               <div class="skill-name">${escape(skill.title)}</div>
               <div class="skill-lvl">${escape(skill.level)}</div>
               <div class="skill-perc">${escape(skill.percentile)}° percentile</div>
-            </div>
+            </a>
           `)
         }
       }

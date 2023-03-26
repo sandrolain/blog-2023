@@ -4,11 +4,13 @@
   --sans-serif-font: 'Anonymous Pro', monospace;
   --serif-font: 'Fira Code', monospace;
   --bg-color-blacky: hsl(240, 100%, 5%);
+  --bg-color-blacky-30: hsla(240, 100%, 5%, 0.3);
   --bg-color-verydark: hsl(240, 100%, 10%);
   --primary-color: hsl(299, 82%, 70%);
   --primary-color-light: hsl(299, 82%, 80%);
   --primary-color-dark: hsl(299, 82%, 50%);
   --primary-color-sowhite: hsl(299, 82%, 90%);
+  --primary-color-verydark-50: hsla(299, 82%, 30%, 0.3);
   --body-padding: 3em;
 }
 
@@ -151,14 +153,14 @@ table {
 }
 
 .content {
-  background: var(--primary-color-verydark-50);
+  background: var(--bg-color-blacky-30);
   backdrop-filter: blur(6px);
   padding: 0 2em;
 }
 
 #foot {
   padding: 2em;
-  background: var(--primary-color-verydark-50);
+  background: var(--bg-color-blacky-30);
   backdrop-filter: blur(6px);
   line-height: 1em;
   margin: 1em 0;
@@ -214,28 +216,49 @@ table {
 #skills {
   display: flex;
   flex-wrap: wrap;
-  gap: 32px;
 }
 
 .badge {
-  width: 110px;
+  width: 20%;
   text-align: center;
   font-size: 14px;
   line-height: 1.3em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.badge:hover {
+  background-color: var(--primary-color-verydark-50) !important;
 }
 .badge-title {
   margin-top: 8px;
+  font-weight: bold;
 }
 
 .skill {
-  width: 150px;
+  width: 25%;
   text-align: center;
   font-size: 14px;
   line-height: 1.3em;
+  display: inline-block;
+  text-decoration: none;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.skill:hover {
+  background-color: var(--primary-color-verydark-50);
 }
 .skill-name {
   margin-top: 8px;
   height: 2.6em;
+  font-weight: bold;
 }
 .skill-lvl {
   text-transform: uppercase;
