@@ -87,7 +87,7 @@ color = "" #color from the theme settings
 - **Stress testing**: Testing the system’s ability to handle extreme conditions, such as high traffic or limited resources.
 - **Compatibility testing**: Testing to ensure that the system works correctly with different hardware, software, and operating systems.
 
-## Microsrvices
+## Microservices
 
 - **Small, independent, and loosely coupled**: Microservices are small, independent, and loosely coupled.
 - **Separate codebase**: Each service is a separate codebase, which can be managed by a small development team.
