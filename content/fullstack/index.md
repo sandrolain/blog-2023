@@ -98,12 +98,12 @@ color = "" #color from the theme settings
 - **Single concern**: Microservice must be engaged in a single concern, making it a lot easier to handle and maintain.
 - **Isolation**: Each microservice must be isolated from other microservices during development and testing.
 - **Mobility**: It could be able to move.
-- **Separate data storage**: It should have its own space where it can store all its data which is separate from other - **microservices.
+- **Separate data storage**: It should have its own space where it can store all its data which is separate from other microservices.
 - **Creation and destruction**: It could be created, destroyed, and recreated as per the needs.
 - **Decentralized data management**: Each microservice should own its related domain data model and domain logic.
-- **Loosely coupled services**: Create loosely coupled services so you have autonomy of development, deployment, and - **scale for each service.
+- **Loosely coupled services**: Create loosely coupled services so you have autonomy of development, deployment, and scale for each service.
 - **Internal cohesion**: More important than the size of the microservice is the internal cohesion it must have and its independence from other services.
-- **Long-term agility**: Microservices enable better maintainability in complex, large, and highly-scalable systems by letting you create applications based on many independently deployable services that each have granular and - **autonomous lifecycles.
+- **Long-term agility**: Microservices enable better maintainability in complex, large, and highly-scalable systems by letting you create applications based on many independently deployable services that each have granular and autonomous lifecycles.
 - **Independent scaling**: Microservices can scale out independently.
 - **Agile changes and rapid iteration**: The microservices approach allows agile changes and rapid iteration of each microservice because you can change specific, small areas of complex, large, and scalable applications.
 - **High Cohesion and Low Coupling**: Microservices-based applications should have high cohesion and low coupling. Each service should do one thing and do it well, which means that the services should be highly cohesive. These services should also not depend on each other, which means they should have low coupling.
