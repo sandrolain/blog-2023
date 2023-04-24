@@ -71,6 +71,13 @@ color = "" #color from the theme settings
   - **Template** Method: Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses.
   - **Visitor**: Represents an operation to be performed on the elements of an object structure without changing the classes of the elements on which it operates.
 
+## Reactive Manifesto Principles
+
+- **Responsive**: The system responds in a timely manner if it is possible to provide a response to clients. Responsiveness is the cornerstone of the system’s usability and utility.
+- **Resilient**: The system remains responsive even in the event of failures. This applies not only to high-availability or mission-critical systems: in fact, it happens that any system that is not resilient will also prove to be unresponsive following a failure.
+- **Elastic**: The system adapts to the frequency of inputs, increasing or decreasing resources as needed.
+- **Message-driven**: Communication between the elements of the architecture is based on asynchronous message exchange.
+
 ## Tests
 
 - **Acceptance testing**: Verifying whether the whole system works as intended.

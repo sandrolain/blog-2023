@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <!--<div class="skill-img"><img src="${escape(skill.thumbnailUrl)}" /></div>-->
               <div class="skill-name">${escape(skill.title)}</div>
               <div class="skill-lvl">${escape(skill.level)}</div>
-              <div class="skill-perc">${escape(skill.percentile)}° percentile</div>
+              <!--<div class="skill-perc">${escape(skill.percentile)}° percentile</div>-->
             </a>
           `)
         }
