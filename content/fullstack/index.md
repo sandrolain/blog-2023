@@ -116,6 +116,10 @@ color = "" #color from the theme settings
 - **High Cohesion and Low Coupling**: Microservices-based applications should have high cohesion and low coupling. Each service should do one thing and do it well, which means that the services should be highly cohesive. These services should also not depend on each other, which means they should have low coupling.
 - **Discrete Boundaries**: In a discrete microservice architecture, each of the microservices is responsible for a specific task. When designing a microservices architecture, you should avoid having cross-functional dependencies between services.
 
+## Technical Debt
+
+Technical debt is the cost of additional rework caused by choosing the quickest solution rather than the most effective solution. It is also known as design debt or code debt and describes what results when development teams take actions to expedite the delivery of a piece of functionality or a project which later needs to be refactored.  
+In other words, it’s the result of prioritizing speedy delivery over perfect code.
 
 ## Bookshelf
 
