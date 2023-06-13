@@ -71,6 +71,15 @@ color = "" #color from the theme settings
   - **Template** Method: Defines the skeleton of an algorithm in an operation, deferring some steps to subclasses.
   - **Visitor**: Represents an operation to be performed on the elements of an object structure without changing the classes of the elements on which it operates.
 
+
+## Enterprise Application Architecture Patterns
+
+- **Transaction script**: Transaction Script is a design pattern that organizes business logic by procedures where each procedure handles a single request from the presentation. It is primarily procedural and each transaction will have its own Transaction Script.
+- **Domain module**: In Domain-Driven Design (DDD), a module is a way to organize related concepts and elements of the domain model. It is used to group together related building blocks of the domain model, such as entities, value objects, and aggregates. This can help to reduce complexity and improve maintainability by separating concerns and reducing coupling between different parts of the domain model.
+- **Table module**: A Table Module is a design pattern that organizes domain logic with one class per table in the database. A single instance of a class contains the various procedures that will act on the data. This pattern is different from a Domain Model, where if you have many orders, for example, a Domain Model will have one order object per order while a Table Module will have one object to handle all orders.
+- **Repository Pattern**: The Repository pattern is a design pattern that is used to keep persistence concerns outside of the system’s domain model. It is intended to create an abstraction layer between the data access layer and the business logic layer of an application. One or more persistence abstractions, such as interfaces, are defined in the domain model and these abstractions have implementations in the form of persistence-specific adapters defined elsewhere in the application. Repository implementations are classes that encapsulate the logic required to access data sources. They centralize common data access functionality, providing better maintainability and decoupling the infrastructure or technology used to access databases from the domain model.
+- **Nano service**: Nanoservices are similar to microservices but are even smaller in scope. They are designed to do only one action at a time and expose it as a single API endpoint. Each command in nanoservices is likely to be distinct, whereas microservices may include several commands. However, nanoservices can be considered an antipattern where a service is too fine-grained and its overhead (communications, maintenance, etc.) outweighs its utility.
+
 ## Reactive Manifesto Principles
 
 - **Responsive**: The system responds in a timely manner if it is possible to provide a response to clients. Responsiveness is the cornerstone of the system’s usability and utility.
