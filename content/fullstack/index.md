@@ -1,5 +1,5 @@
 +++
-title = "Sandro Lain"
+title = "Senior Engineer Foundations"
 #date = "2023-03-20T19:18:19Z"
 #author = "Sandro Lain"
 authorTwitter = "sandro_lain" #do not include @
@@ -12,8 +12,6 @@ readingTime = false
 hideComments = false
 color = "" #color from the theme settings
 +++
-
-# Foundations
 
 ## SOLID
 
