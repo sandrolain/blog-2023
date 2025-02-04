@@ -12,6 +12,7 @@
   --primary-color-sowhite: hsl(299, 82%, 90%);
   --primary-color-verydark-50: hsla(299, 82%, 30%, 0.3);
   --body-padding: 3em;
+  --accent: var(--primary-color);
 }
 
 html, body {

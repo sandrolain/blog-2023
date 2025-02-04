@@ -1,6 +1,6 @@
 module sandrolain.com/blog-2023
 
-go 1.19
+go 1.23
 
 require (
 	github.com/aws/aws-lambda-go v1.47.0
@@ -9,5 +9,5 @@ require (
 
 require (
 	github.com/boombuler/barcode v1.0.2 // indirect
-	github.com/panr/hugo-theme-terminal/v3 v3.1.2 // indirect
+	github.com/panr/hugo-theme-terminal/v4 v4.1.0 // indirect
 )
