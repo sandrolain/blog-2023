@@ -15,6 +15,8 @@ color = "" #color from the theme settings
 
 With the release of Go 1.24 (currently in RC), the standard library introduces [`crypto/mlkem`](https://pkg.go.dev/crypto/mlkem), implementing the ML-KEM (Kyber) key encapsulation mechanism, a quantum-resistant cryptographic primitive standardized in [NIST FIPS 203](https://csrc.nist.gov/pubs/fips/203/final).  
 
+## What is ML-KEM
+
 ML-KEM is a post-quantum key encapsulation method based on lattice-based cryptography. Unlike traditional public-key encryption schemes, which may be vulnerable to quantum attacks, ML-KEM provides a secure way to exchange symmetric encryption keys even in the presence of adversaries equipped with quantum computing capabilities.  
 
 AES-256 remains considered secure in a post-quantum world, as its key size is large enough to resist quantum attacks such as Grover’s algorithm, which would only halve its effective security level.  
@@ -23,7 +25,7 @@ This addition marks a significant step in Go’s cryptographic ecosystem, enabli
 
 In the following example, we will demonstrate how to use the `crypto/mlkem` package to securely encapsulate a key for AES-256 encryption.
 
-### Example of creation of a decapsulation key and an encapsulation key
+## Example of creation of a decapsulation key and an encapsulation key
 
 The `GenerateKey1024` method from the `crypto/mlkem` package generates a new decapsulation key (equivalent to a private key).
 From the decapsulation key we can extract the encapsulation key (equivalent to a public key).
@@ -40,7 +42,7 @@ encKey := decKey.EncapsulationKey()
 
 ```
 
-### Example of encryption using encapsulation key
+## Example of encryption using encapsulation key
 
 The `Encapsulate` method takes no input and returns a shared key and its relative ciphertext.
 The generated `sharedKey` is a 256 bit symmetric key that can be used for AES encryption and the `sharedKeyCiphertext` is the relative ciphertext encapsulating the shared key.
@@ -82,7 +84,7 @@ sharedKey, sharedKeyCiphertext := encKey.Encapsulate()
 
 ```
 
-### Example of decryption using decapsulation key
+## Example of decryption using decapsulation key
 
 The encrypted message in `msgCyphertext` can be shared with the recipient, along with the encrypted key `sharedKeyCiphertext`.
 The recipient, in order to decrypt the message, must have the decapsulation key `decKey` from which the encapsulation key used to generate `sharedKeyCiphertext` was derived.
@@ -130,5 +132,8 @@ if err != nil {
   panic("failed to decrypt message")
 }
 
-
 ```
+
+## Conclusion
+
+Post-quantum security has become increasingly crucial due to the potential threat posed by quantum computers. It is advisable to adopt encryption algorithms that are resilient against quantum attacks to safeguard sensitive information. Implementing post-quantum encryption now is a proactive step to ensure that data remains secure, even as advancements in quantum computing continue. By doing so, we can mitigate the risk of future data breaches and maintain the confidentiality of critical information.
