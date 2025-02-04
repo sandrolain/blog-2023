@@ -13,7 +13,7 @@ hideComments = false
 color = "" #color from the theme settings
 +++
 
-With the release of Go 1.24 (currently in RC), the standard library introduces [`crypto/mlkem`](https://pkg.go.dev/crypto/mlkem), implementing the ML-KEM (Kyber) key encapsulation mechanism, a quantum-resistant cryptographic primitive standardized in [NIST FIPS 203](https://csrc.nist.gov/publications/detail/fips/203/final).  
+With the release of Go 1.24 (currently in RC), the standard library introduces [`crypto/mlkem`](https://pkg.go.dev/crypto/mlkem), implementing the ML-KEM (Kyber) key encapsulation mechanism, a quantum-resistant cryptographic primitive standardized in [NIST FIPS 203](https://csrc.nist.gov/pubs/fips/203/final).  
 
 ML-KEM is a post-quantum key encapsulation method based on lattice-based cryptography. Unlike traditional public-key encryption schemes, which may be vulnerable to quantum attacks, ML-KEM provides a secure way to exchange symmetric encryption keys even in the presence of adversaries equipped with quantum computing capabilities.  
 
