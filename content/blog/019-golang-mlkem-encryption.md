@@ -51,7 +51,7 @@ The generated `sharedKey` is a 256 bit symmetric key that can be used for AES en
 msg := []byte("This is a test message")
 
 // Generate a new shared key and relative ciphertext
-sharedKeyCiphertext, sharedKey := encKey.Encapsulate()
+sharedKey, sharedKeyCiphertext := encKey.Encapsulate()
 
 // sharedKey is a 256 bit symmetric key that can be used for AES encryption
 
@@ -109,23 +109,23 @@ if err != nil {
 
 // Extract the nonce from the ciphertext  
 nonceSize := gcm.NonceSize()
-if len(cipherText) < nonceSize {
+if len(msgCyphertext) < nonceSize {
   panic("ciphertext is too short")
 }
 
 // Extract the nonce from the ciphertext
-nonce := cipherText[:nonceSize]
+nonce := msgCyphertext[:nonceSize]
 if len(nonce) != nonceSize {
   panic("invalid nonce size")
 }
 
 // Extract the actual ciphertext after the nonce
-encryptedData := cipherText[nonceSize:]
+encryptedData := msgCyphertext[nonceSize:]
 if len(encryptedData) < 1 {
   panic("ciphertext is too short")
 }
 
-msg, err := gcm.Open(nil, nonce, encryptedData, nil)
+msg, err = gcm.Open(nil, nonce, encryptedData, nil)
 if err != nil {
   panic("failed to decrypt message")
 }
